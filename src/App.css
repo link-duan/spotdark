@@ -1,0 +1,21 @@
+#search-input {
+  border: none;
+  flex: 0 0;
+  padding: 12px;
+  font-size: 24px;
+  display: block;
+  width: 100vw;
+  outline: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  #search-input {
+    color: #deebff;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  #search-input {
+    color: #000;
+  }
+}
